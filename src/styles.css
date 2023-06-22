@@ -1,0 +1,74 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #f3c6c6;
+    margin-bottom: 50px;
+    color: rgb(73, 31, 31);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(73, 31, 31) 10px solid;
+    border-radius: 15px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(73, 31, 31);
+    font-weight: bold;
+    background-color: #916f6f;
+    cursor: pointer;
+    border: rgb(73, 31, 31) solid 5px;
+    border-radius: 15px;
+    height: 90px;
+  }
+  .cell:hover{
+    
+    background-color: #be9797;
+    
+
+  }
+  
+  .current-player {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fae7e7;
+    border:rgb(73, 31, 31) solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    color: rgb(73, 31, 31);
+  }
+  
+  .reset-button:hover {
+    background-color: #fff5f5;
+  }
+  
