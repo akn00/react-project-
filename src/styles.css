@@ -1,0 +1,43 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    color: #333;
+    width: 400px;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: rgb(196, 191, 248);
+  }
+  
+  .fahrenheit,
+  .celcius {
+    margin-bottom: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e3e0fd;
+  }
+  
+  #celciusInput,
+  #fahrenheitInput {
+    background-color: rgb(180, 176, 228);
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  #celciusInput:hover,
+  #fahrenheitInput:hover,
+  #celciusInput:focus,
+  #fahrenheitInput:focus {
+    background-color: rgb(135, 131, 170);
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
